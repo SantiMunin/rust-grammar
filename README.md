@@ -4,9 +4,9 @@ This project is a lexer-parser combination capable of parsing Rust
 code for Rust 1.0 (currently in alpha). The purpose is to create a
 testable LALR grammar specification for rust issue #2234. It contains
 a lexer specification for flex and a grammar specification for [GNU
-Bison](https://www.gnu.org/software/bison/), and together they work
-together to create a parser for Rust code. The parser should be able
-to accept all programs accepted by `rustc -Z parse-only`.
+Bison](https://www.gnu.org/software/bison/), and they work together
+to create a parser for Rust code. The parser should be able to
+accept all programs accepted by `rustc -Z parse-only`.
 
 ## Lexer
 
